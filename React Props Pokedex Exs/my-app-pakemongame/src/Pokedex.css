@@ -1,0 +1,16 @@
+.Pokedex {
+    text-align: center;
+}
+
+.Pokedex-title {
+    color: #588e91;
+}
+
+.Pokedex-total {
+    color: rgb(43, 137, 66);
+}
+
+.Pokedex-winner {
+    font-weight: bold;
+    color: rgb(255, 0, 115);
+  }
