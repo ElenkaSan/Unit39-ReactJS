@@ -1,0 +1,15 @@
+.EightBall {
+    height: 20rem;
+	width: 20rem;
+	color: white;
+    margin: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: relative;
+}
+
+.EightBall-btn {
+    color: rgb(90, 90, 42);
+}
