@@ -1,4 +1,5 @@
-# Getting Started with Create React App unit 39.3
+# unit 39.3
+# Getting Started with Create React App
 
 1. React Props: Pokedex (my-app-pokedex)
 2. Further Study: More Pokemon! (my-app-pakemongame)
