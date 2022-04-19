@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  background-color:rgba(251, 236, 213, 0.784);
+  margin: 1rem;
+  padding: 1em;
+}
+
+.App-title {
+  color: rgb(32, 131, 35);
+}

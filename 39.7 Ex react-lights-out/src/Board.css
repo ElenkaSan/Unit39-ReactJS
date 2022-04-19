@@ -1,0 +1,11 @@
+.Board-cell {
+  margin: 0 auto;
+}
+
+.Board button {
+  background-color: rgb(184, 112, 11);
+  color: rgba(251, 236, 213, 0.784);
+  font-size: 140%;
+  border-radius: 2px;
+  margin: 1.5em;
+}
