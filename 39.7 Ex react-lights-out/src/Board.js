@@ -72,7 +72,10 @@ function Board({ nrows=5, ncols=5, chanceLightStartsOn=1}) {
   // if the game is won, just show a winning msg & render nothing else
   // TODO
   if (hasWon()) {
-    return <div><h1>You Win!</h1></div>
+      return <div className="Board">
+      <h1>You Win!</h1>
+      <button onClick={restartGame}>Restart</button>
+      </div>
   };
 
   // make table board
