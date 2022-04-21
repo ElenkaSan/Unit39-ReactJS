@@ -15,12 +15,10 @@ const Todo = (props) => {
     const removing = () => props.remove (id);
     return (
         <div className="Todo">
-        <ul>
-        <li className="Todo-todo">{todo}</li>
-        Discription: {discription} -
-        <button id="removeBox" onClick={removing}> X</button>
-        </ul>
-        </div>
+          <h2 className="Todo-todo"> {todo} </h2>
+             Discription: {discription} -
+             <button id="removeBox" onClick={removing}> X </button>
+       </div>
     )
 };
 
