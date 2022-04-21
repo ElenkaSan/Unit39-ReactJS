@@ -18,11 +18,15 @@ const TodoList = () => {
 
     return (
         <div>
-             <h3 className="TodoList">My Todo List</h3>
-          <NewTodoForm addingList={addList} />
-          {lists.map(({ id, todo, discription}) =>
-          <Todo remove={removing} key={id} id={id} todo={todo} discription={discription} />
-          )}
+          <h3 className="TodoList">My Todo List</h3>
+            <NewTodoForm addingList={addList} />
+              <ol>
+                {lists.map(({ id, todo, discription}) =>
+                  <li>
+                   <Todo remove={removing} key={id} id={id} todo={todo} discription={discription} />
+                 </li>
+                )}
+              </ol>
         </div>
       )
    };
