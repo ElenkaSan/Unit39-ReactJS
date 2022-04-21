@@ -1,0 +1,18 @@
+.Todo {
+    text-align: left;
+    margin: 20px;
+  }
+
+.Todo-todo {
+    color: rgb(255, 110, 20);
+    font-weight: bold; 
+    font-size: 25px; 
+}
+
+.Todo button {
+    background-color: rgb(255, 110, 20);
+    color: rgba(251, 236, 213, 0.784);
+    font-size: 100%;
+    border-radius: 2px;
+    cursor: pointer;
+}
