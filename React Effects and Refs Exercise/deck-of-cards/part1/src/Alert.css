@@ -1,0 +1,9 @@
+.Alert{
+    text-align: center;
+    background-color:rgb(228, 73, 52);
+    border-radius:5px;
+    color: rgb(6, 28, 9);
+    margin: 1px;
+    padding: 20px;
+    position: relative;
+}
