@@ -8,8 +8,15 @@ const DisplaysCards  = () => {
     const [deck, setDeck] = useState([]);
     const interval = useRef(0);
     const [done, setDone] = useState(false);
-
-	const [drawCardBtn, setDrawCardBtn ] = useState(true);
+    const [drawCardBtn, setDrawCardBtn ] = useState(true);
+	
+    const drawCard = () => {
+	    if (deck.length !== 0) {
+		    setCardSrc(deck[0]);
+                    setDeck(deck.filter(img => img !== deck[0]));
+            } else {
+                    setDone(true);
+    }};
 
     useEffect(() => {
         async function getNewDeck() {
@@ -22,13 +29,14 @@ const DisplaysCards  = () => {
 
     useEffect(() => {
 		if (drawCardBtn && !interval.current) {
-        interval.current = setInterval(() => {
-            if (deck.length !== 0) {
-                setCardSrc(deck[0]);
-                setDeck(deck.filter(img => img !== deck[0]));
-            } else {
-				setDone(true);
-            }
+//         interval.current = setInterval(() => {
+//             if (deck.length !== 0) {
+//                 setCardSrc(deck[0]);
+//                 setDeck(deck.filter(img => img !== deck[0]));
+//             } else {
+// 				setDone(true);
+//             }
+	      drawCard();
         }, 700);
 
         return () => {
