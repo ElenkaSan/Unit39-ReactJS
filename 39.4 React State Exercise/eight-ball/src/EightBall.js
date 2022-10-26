@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button } from 'reactstrap';
 import('./EightBall.css');
 
 function EightBall(props) {
@@ -18,12 +19,13 @@ function EightBall(props) {
 	};
 
 	return (
-		<div> 
-        <button 
+		<div className='text-center m-5'> 
+        <Button 
         onClick={change} style={{ backgroundColor: color }} className="EightBall">
 			<h3>{msg}</h3>
-        </button> 
-            <button onClick={restart} className="EightBall-btn">New Game</button>
+        </Button> 
+        <br/>
+            <Button onClick={restart} className="btn btn-info">New Game</Button>
 		</div>
 	);
 }
