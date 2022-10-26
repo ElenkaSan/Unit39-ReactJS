@@ -1,4 +1,6 @@
 # Part 1 - Color Box Maker
+<img width="1072" alt="Screen Shot 2022-10-26 at 1 41 16 PM" src="https://user-images.githubusercontent.com/75818489/198099050-5b4eb06d-5e1b-428c-a1c4-f6f99d73582f.png">
+
 
 ## Available Scripts
 
