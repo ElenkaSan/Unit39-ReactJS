@@ -1,7 +1,8 @@
 # React Effects and Refs Exercise
 
 ## Deck of Cards
-  
+  <img width="402" alt="Screen Shot 2022-10-26 at 1 50 09 PM" src="https://user-images.githubusercontent.com/75818489/198099716-aff076af-3612-4a23-b09a-3ca409ad6fd9.png">
+
 - Part 1: Click to Draw
 - Part 2: Click to Keep Drawing
 
