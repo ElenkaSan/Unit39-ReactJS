@@ -2,6 +2,10 @@
 ## 39.1 React Introduction
 ## 39.2 Props in React
 ## 39.3 Create React App
+### my-app-pakemongame
+<img width="713" alt="Screen Shot 2022-10-26 at 2 02 44 PM" src="https://user-images.githubusercontent.com/75818489/198103491-761bf0f4-6059-4474-9014-b5f52e03795a.png">
+
+
 ## 39.4 Events & State
 ### Eight Ball
 https://user-images.githubusercontent.com/75818489/198096089-f6229a2d-5d50-4021-8c16-1ae82748d400.mov
