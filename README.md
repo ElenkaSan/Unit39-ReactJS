@@ -17,4 +17,7 @@ https://user-images.githubusercontent.com/75818489/198096089-f6229a2d-5d50-4021-
 <img width="1073" alt="Screen Shot 2022-10-26 at 1 45 20 PM" src="https://user-images.githubusercontent.com/75818489/198098803-6a5d3742-cec4-445e-9317-cc714a558c9d.png">
 
 ## 39.9 React Effects And Refs
+### deck-of-cards
+<img width="402" alt="Screen Shot 2022-10-26 at 1 50 09 PM" src="https://user-images.githubusercontent.com/75818489/198099815-a9ec444a-c96d-4d73-81f0-090a1475f13a.png">
+
 ## 39.10 Custom Hooks
