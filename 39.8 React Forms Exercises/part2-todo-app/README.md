@@ -1,4 +1,5 @@
 # Part 2 - Todo App - List, Add, Remove Todos
+<img width="1073" alt="Screen Shot 2022-10-26 at 1 45 20 PM" src="https://user-images.githubusercontent.com/75818489/198099119-3942b2b7-bc90-4bf6-915a-3c5d7b7e377a.png">
 
 ## Available Scripts
 
